@@ -1,0 +1,60 @@
+/* Custom overrides for Bootstrap defaults */
+
+body {
+    background-color: #0d1b2a;
+    color: #ffffff;
+}
+
+/* Override the navbar colors to match our theme */
+.navbar.bg-dark {
+    background-color: #1b263b !important;
+    border-bottom: 3px solid #415a77;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* Hero section */
+.hero {
+    background-color: #1b263b;
+    color: #ffffff;
+}
+
+.hero .lead {
+    color: #a9c0dd;
+}
+
+/* Override card styling for dark theme */
+.card {
+    background-color: #1b263b;
+    border: 1px solid #415a77;
+    color: #ffffff;
+}
+
+.card-title {
+    color: #a9c0dd;
+    border-bottom: 1px solid #415a77;
+    padding-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    border-top: 1px solid #1b263b;
+}
+
+.back-link {
+    color: #a9c0dd;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-link:hover {
+    color: #ffffff;
+}
+
+footer .text-muted {
+    color: #778da9 !important;
+}

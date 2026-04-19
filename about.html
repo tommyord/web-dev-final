@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Tommy Ord</title>
+
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My custom CSS (loaded AFTER Bootstrap so it can override) -->
+    <link rel="stylesheet" href="bootstrap-custom.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Tommy Ord</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="todo.html">To-do App</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero text-center py-5">
+        <div class="container">
+            <h1 class="display-4">About Me</h1>
+            <p class="lead">Freshman at BYU, finance student, aspiring investment banker.</p>
+        </div>
+    </section>
+
+    <!-- Content cards -->
+    <section class="container my-5">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Studies</h5>
+                        <p class="card-text">
+                            I'm pursuing a degree in finance at Brigham Young University.
+                            My coursework so far has covered financial accounting, economics,
+                            and introductory business topics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Career Goal</h5>
+                        <p class="card-text">
+                            I'm drawn to investment banking — the combination of deal-making,
+                            financial analysis, and client work appeals to me. I plan to
+                            pursue internships in the field.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Outside of School</h5>
+                        <p class="card-text">
+                            Music is my main interest outside of academics. I enjoy
+                            discovering new artists and genres, and find it a great way
+                            to unwind from coursework.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer with link back to scratch page -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <a href="index.html" class="back-link">&larr; Back to home</a>
+            <p class="mt-2 mb-0 text-muted">&copy; 2026 Tommy Ord</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript (for the navbar toggle on mobile) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
