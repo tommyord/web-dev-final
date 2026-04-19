@@ -1,0 +1,148 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    background-color: #0d1b2a;
+    color: #ffffff;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #1b263b;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 3px solid #415a77;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #a9c0dd;
+    margin: 8px 0 0;
+}
+
+/* Main content area */
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.todo-container {
+    background-color: #1b263b;
+    border: 1px solid #415a77;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+/* Input row */
+.input-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px 12px;
+    font-size: 16px;
+    background-color: #0d1b2a;
+    border: 1px solid #415a77;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+#taskInput:focus {
+    outline: none;
+    border-color: #a9c0dd;
+}
+
+#addBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #415a77;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #a9c0dd;
+    color: #0d1b2a;
+}
+
+/* Task list */
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#taskList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #415a77;
+}
+
+#taskList li:last-child {
+    border-bottom: none;
+}
+
+#taskList li span {
+    flex: 1;
+    font-size: 16px;
+}
+
+/* Completed tasks get a strikethrough */
+#taskList li.completed span {
+    text-decoration: line-through;
+    color: #778da9;
+}
+
+/* Delete button */
+.delete {
+    background: transparent;
+    color: #a9c0dd;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 8px;
+    line-height: 1;
+}
+
+.delete:hover {
+    color: #ff6b6b;
+}
+
+/* Empty state message */
+#emptyMessage {
+    text-align: center;
+    color: #778da9;
+    font-style: italic;
+    margin: 20px 0 0;
+}
+
+/* Back link */
+.back {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back a {
+    color: #a9c0dd;
+    text-decoration: none;
+}
+
+.back a:hover {
+    color: #ffffff;
+}
