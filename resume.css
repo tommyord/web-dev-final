@@ -1,0 +1,136 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    background-color: #0d1b2a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1b263b;
+    padding: 50px 40px;
+    text-align: center;
+    border-bottom: 3px solid #415a77;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.contact {
+    margin: 8px 0 0;
+    color: #a9c0dd;
+    font-size: 16px;
+}
+
+.contact a {
+    color: #a9c0dd;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #a9c0dd;
+    border-bottom: 1px solid #415a77;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Each resume entry */
+.entry {
+    margin-bottom: 24px;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.entry-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.location {
+    color: #a9c0dd;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.entry-subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 4px;
+    flex-wrap: wrap;
+}
+
+.entry-subheader em {
+    color: #a9c0dd;
+    font-size: 15px;
+}
+
+.date {
+    color: #778da9;
+    font-size: 14px;
+}
+
+.org-desc {
+    margin: 6px 0 0;
+    color: #778da9;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Bullet lists */
+ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 4px 0;
+    color: #e0e1dd;
+    font-size: 15px;
+}
+
+/* Back link */
+.back {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back a {
+    color: #a9c0dd;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back a:hover {
+    color: #ffffff;
+}
